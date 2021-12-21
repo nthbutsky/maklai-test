@@ -1,0 +1,34 @@
+<html lang="en">
+  <head>
+    <meta name="description" content="Maklai Test">
+    <meta name="keywords" content="JavaScript, SCSS, Webpack, BEM">
+    <meta name="author" content="Denis Butsky">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Maklai Test</title>
+  <script defer="defer" src="vendors-node_modules_babel_polyfill_lib_index_js.js"></script><script defer="defer" src="main.js"></script><link href="main.css" rel="stylesheet"></head>
+  <body>
+    <main class="main__form-container">
+      <form class="main__form">
+        <label class="main__form-label" for="input-1">Enter first operand</label>
+        <input class="main__form-input" type="number" id="input-1" placeholder="e.g. 123">
+        <label class="main__form-label" for="input-2">Enter second operand</label>
+        <input class="main__form-input" type="number" id="input-2" placeholder="e.g. 345">
+        <label class="main__form-label" for="select">Choose an operator</label>
+        <select class="main__form-select" id="select">
+          <option value="">Pick an option</option>
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/</option>
+        </select>
+        <label class="main__form-label" for="submit">Press Result to calculate</label>
+        <button class="main__form-submit" type="submit" id="submit">
+          Result
+        </button>
+        <div class="main__form-result" id="result"></div>
+      </form>
+    </main>
+  </body>
+</html>
