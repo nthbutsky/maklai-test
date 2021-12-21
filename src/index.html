@@ -29,7 +29,7 @@
           id="input-2"
           placeholder="e.g. 345"
         />
-        <label class="main__form-label" for="select">Choose an operation</label>
+        <label class="main__form-label" for="select">Choose an operator</label>
         <select class="main__form-select" id="select">
           <option value="">Pick an option</option>
           <option value="+">+</option>
@@ -37,9 +37,13 @@
           <option value="*">*</option>
           <option value="/">/</option>
         </select>
+        <label class="main__form-label" for="submit"
+          >Press Result to calculate</label
+        >
         <button class="main__form-submit" type="submit" id="submit">
-          Let's calculate
+          Result
         </button>
+        <div class="main__form-result" id="result"></div>
       </form>
     </main>
   </body>

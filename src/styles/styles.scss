@@ -64,8 +64,17 @@ body {
     }
 
     &-submit {
-      margin: 10px auto;
       background-color: hsl(0, 0%, 100%);
+    }
+
+    &-result {
+      color: hsl(0, 0%, 100%);
+      font-weight: bold;
+      font-size: 1.3rem;
+      padding: 10px 0;
+      text-align: center;
+      text-transform: lowercase;
+      height: 30px;
     }
   }
 }
