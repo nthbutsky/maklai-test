@@ -30,7 +30,7 @@ function calculate(event) {
   if (calcResult) {
     result.innerHTML = Math.trunc(calcResult);
   } else {
-    result.innerHTML = 'Please, choose an operator!';
+    result.innerHTML = 'Please, complete all fields!';
   }
 
   firstOperand.value = '';
