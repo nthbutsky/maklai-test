@@ -8,5 +8,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maklai Test</title>
   </head>
-  <body></body>
+  <body>
+    <main class="main__form-container">
+      <form class="main__form">
+        <label for="input-1">First operand</label>
+        <input class="main__form-input" type="number" id="input-1" />
+        <label for="input-2">Second operand</label>
+        <input class="main__form-input" type="number" id="input-2" />
+        <label for="select">Choose an operation</label>
+        <select class="main__form-select" id="select">
+          <option value="">Pick an option</option>
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/</option>
+        </select>
+        <button class="main__form-submit" type="submit">Calculate</button>
+      </form>
+    </main>
+  </body>
 </html>
